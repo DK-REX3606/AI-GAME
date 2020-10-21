@@ -52,9 +52,12 @@ var gameConfig = {
 /*====================================
 =            Game Status             =
 ====================================*/
-
+noseX = "";
+noseY = "";
+GameStatus = "";
 function game() {
 
+  console.log("Nose x = " + noseX + "Nose y = " + noseY);
   instializeInDraw();
   moveEnvironment(mario);
   drawSprites();
