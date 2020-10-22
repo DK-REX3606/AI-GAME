@@ -115,6 +115,10 @@ function game() {
   }
 }
 
+function startGame() {
+  GameStatus = "start";
+  document.getElementById("status").innerHTML = "Game is loading. Please have patience......";
+}
 
 // change game status if any key is pressed
 function changeGameStatud(character) {
